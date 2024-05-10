@@ -1,9 +1,8 @@
 {
-  "name": "kapture-ui-ticket-quickactions-mfe",
+  "name": "kapture-plugin-template",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "/plugin-mfe/ticket-quick-actions-mfe/",
-  "description": "Kapture's MFE for Ticket Quick Actions",
+  "homepage": "/",
+  "description": "Kapture's Plugin Template reop",
   "dependencies": {
     "@date-io/date-fns": "1.3.11",
     "@date-io/moment": "1.3.11",
