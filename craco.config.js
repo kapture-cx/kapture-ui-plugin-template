@@ -1,5 +1,6 @@
 const { ModuleFederationPlugin } = require("webpack").container
 const { dependencies } = require("./package.json")
+const path = require("path")
 
 const name = "remote"
 const exposes = {
@@ -57,13 +58,19 @@ module.exports = {
         plugins: {
             add: [new ModuleFederationPlugin(moduleFederationPluginConfig)],
         },
-        configure: webpackConfig => ({
-            ...webpackConfig,
-            output: {
-                ...webpackConfig.output,
-                publicPath: "auto",
-                uniqueName: "kapture-mfe-plugin-" + new Date().getTime(), // This should be unique for every build as it'll avoid issues in versioning of the plugin
-            },
-        }),
+        configure: (webpackConfig, { env, paths }) => {
+            if (process.env.BUILD_DIR) {
+                paths.appBuild = path.resolve(process.env.BUILD_DIR)
+            }
+            return {
+                ...webpackConfig,
+                output: {
+                    ...webpackConfig.output,
+                    path: process.env.BUILD_DIR ? paths.appBuild : webpackConfig.output.path,
+                    publicPath: "auto",
+                    uniqueName: "kapture-mfe-plugin-" + new Date().getTime(), // This should be unique for every build as it'll avoid issues in versioning of the plugin
+                },
+            }
+        },
     },
 }
