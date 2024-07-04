@@ -1,6 +1,6 @@
 import React, { Suspense } from "react"
 import { ThemeProvider } from "@material-ui/styles"
-import { Container } from "./container"
+import Container from "./container/container"
 
 function App(props) {
     return (
