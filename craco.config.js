@@ -7,6 +7,11 @@ const exposes = {
     PluginCore: "./src/App.js",
 }
 const filename = "remoteEntry.js"
+
+// delete dependencies["@kapture/x"]
+// delete dependencies["@kapture/utils"]
+// delete dependencies["@kapture/redux-store"]
+
 const shared = {
     ...dependencies,
     "@material-ui/core": {
