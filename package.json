@@ -147,7 +147,7 @@
     "chromatic": "^5.2.0",
     "clsx": "^1.0.4",
     "cross-env": "6.0.3",
-    "eslint": "^7.17.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^6.7.0",
     "eslint-config-react": "^1.1.7",
