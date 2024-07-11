@@ -2,6 +2,7 @@
   "name": "kapture-plugin-template",
   "version": "0.1.0",
   "homepage": "/",
+  "private": "true",
   "description": "Kapture's Plugin Template reop",
   "dependencies": {
     "@antv/data-set": "^0.11.1",
