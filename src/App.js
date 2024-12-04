@@ -4,6 +4,7 @@ import { StylesProvider, jssPreset, createGenerateClassName } from "@material-ui
 import { create } from "jss"
 import jssExtend from "jss-extend"
 import Container from "./container/container"
+import KaptureTheme from "KaptureTheme"
 
 const jss = create({
     ...jssPreset(),
@@ -18,7 +19,9 @@ function App(props) {
             <ThemeProvider>
                 <Suspense fallback={<div>Loading...</div>}>
                     <div id="">
-                        <Container {...props} />
+                        <KaptureTheme>
+                            <Container {...props} />
+                        </KaptureTheme>
                     </div>
                 </Suspense>
             </ThemeProvider>

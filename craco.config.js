@@ -46,6 +46,10 @@ const shared = {
         singleton: true,
         requiredVersion: dependencies["react-redux"],
     },
+    "@kapture/redux-store": {
+        singleton: true,
+        requiredVersion: dependencies["@kapture/redux-store"],
+    }
 }
 
 const moduleFederationPluginConfig = {
