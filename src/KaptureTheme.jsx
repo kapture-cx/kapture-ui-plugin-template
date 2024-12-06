@@ -1,5 +1,5 @@
 import React from "react"
-import { ThemeProvider } from "@material-ui/core/styles"
+import { createTheme, ThemeProvider } from "@material-ui/core/styles"
 import { useSelector } from "react-redux"
 
 const KaptureTheme = ({ children }) => {
