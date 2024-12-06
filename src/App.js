@@ -3,8 +3,8 @@ import { ThemeProvider } from "@material-ui/styles"
 import { StylesProvider, jssPreset, createGenerateClassName } from "@material-ui/core/styles"
 import { create } from "jss"
 import jssExtend from "jss-extend"
-import Container from "./container/container"
 import KaptureTheme from "KaptureTheme"
+import Container from "./container/container"
 
 const jss = create({
     ...jssPreset(),
