@@ -2903,20 +2903,20 @@
   resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.4.0.tgz#08d6c5e20cf7e4cc02fd181c4b0c225cd31dbb60"
   integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
 
-"@kapture/redux-store@0.1.54":
-  version "0.1.54"
-  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/redux-store/-/@kapture/redux-store-0.1.54.tgz#23f3074b12a1997b27a6e888e34a688c6755aa6e"
-  integrity sha512-LhAwLia8zLp32lpNIJhYgNpViwlaaUNa897Cny2jCiVVaXYaa4/Wf9xpWrjTxlmMA0zcFqycaFUNhpjfSexYCg==
+"@kapture/redux-store@0.1.105":
+  version "0.1.105"
+  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/redux-store/-/@kapture/redux-store-0.1.105.tgz#2852ab0ab47ad487a89b305253d8bac0baf9f2fd"
+  integrity sha512-kv9G0m4S91tHoI5nMh/uCL4p6lIfk0pE8zryDaV5o3DCSgtbu62MA0IoeEVr0a+M+S4PS3He82iNBvYkQJzcdg==
 
-"@kapture/utils@0.1.180":
-  version "0.1.180"
-  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/utils/-/@kapture/utils-0.1.180.tgz#c7ae651f588c011ee60d6f7bf2b4b91341a404ec"
-  integrity sha512-sRRS1N7cgFRJxPHygFDCLozAcNqmWo/Zg2Vsba/3X1O+JJ42lj6rBF1iTcygNTSADbr9Wkl85oyLgc5ouob53g==
+"@kapture/utils@0.1.186":
+  version "0.1.186"
+  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/utils/-/@kapture/utils-0.1.186.tgz#01937951826c8c459633d99bf9d2b88256c7a47e"
+  integrity sha512-A594CXeiZBPC7I16jTMR76uMxkYpEuuAB+Qy/zCVyiLvIN7sEYBCSIP/V5ZjHILOxhn7qof7dh+MfhEgrgzoqA==
 
-"@kapture/x@0.3.194":
-  version "0.3.194"
-  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/x/-/@kapture/x-0.3.194.tgz#4b8a067d2e1c470e2aa142d3e3ef4852fada7d2b"
-  integrity sha512-+nMSkThWkF0whByKCXviY4I4jxsRQZtrRya5c9qCu4kaWYmtf68N9qVWg06Kv8RbzAxI7QeX97ObwsPr9944Ww==
+"@kapture/x@0.3.199":
+  version "0.3.199"
+  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/x/-/@kapture/x-0.3.199.tgz#4226926c22a4150b19ab2cf5421435fbad040cef"
+  integrity sha512-zf2eT0WucoJ7J3jEqvnEncv93eqfHHM5LTJGEuN2Oa0jlKtWUHYYy0yGSuZwF2pCHQX7uZ9JGeorTixeRnWRww==
 
 "@leichtgewicht/ip-codec@^2.0.1":
   version "2.0.5"
