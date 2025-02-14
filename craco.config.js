@@ -5,6 +5,7 @@ const path = require("path")
 const name = "remote"
 const exposes = {
     PluginCore: "./src/App.js",
+    functions: "./src/functions.js"
 }
 const filename = "remoteEntry.js"
 
