@@ -2903,20 +2903,20 @@
   resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.4.0.tgz#08d6c5e20cf7e4cc02fd181c4b0c225cd31dbb60"
   integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
 
-"@kapture/redux-store@0.1.117":
-  version "0.1.117"
-  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/redux-store/-/@kapture/redux-store-0.1.117.tgz#5de58654416320fd0af11f4a2d97e2a0e3a9a9cd"
-  integrity sha512-uebzxMCbU21lPDEb6Lf4p0gbK/hl3vqvlM5uqs7glIsYI563q2AtUpQKSRfxIAcNU3Xq0ZIJrJoP4XfKt37bdg==
+"@kapture/redux-store@0.1.122":
+  version "0.1.122"
+  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/redux-store/-/@kapture/redux-store-0.1.122.tgz#c9554d1bb6f8c0c5c821c842ff00ad6fcf29882f"
+  integrity sha512-uc8T4u4hYlO/XminnGj4sHCAD+m5GvtWSLX1Rl01A7DiHZgG2++3ccBmMdBYY60BqZvbbheH+yWcswFJa9fzNw==
 
-"@kapture/utils@1.1.4":
-  version "1.1.4"
-  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/utils/-/@kapture/utils-1.1.4.tgz#a35855d3cd78478ca8266b630978e25f4c7b800b"
-  integrity sha512-PQTV9Rja5QpKflUN2yOnYw/aJNlDcbYEdTt9449F5fwGkMdzBqEiHmkUCxPyDperR0t6hzlJf/jkRPDqpcYrGA==
+"@kapture/utils@1.2.6":
+  version "1.2.6"
+  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/utils/-/@kapture/utils-1.2.6.tgz#f15f1f2893681e7b14210efb6382c4788857a59e"
+  integrity sha512-yST98ZdWXgH8/5iP14YzH4ozZNlCDLTBJyF9t7DC0syBn2+9uJPHQuYs2c8uxn65xiVEhklP7lIbA61NeCMbnQ==
 
-"@kapture/x@0.3.207":
-  version "0.3.207"
-  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/x/-/@kapture/x-0.3.207.tgz#32333b414ddf6d6b87fc62ee2c8a955b3b3c23c6"
-  integrity sha512-Z5eCQqT0PAGL6Lf9yeTg2DAd79IsnLiHw0Xcaxm8clb7d2B9DQ9R/PBw22TUoRDW5KvjWEsExq8iSFKTk6Gwvg==
+"@kapture/x@0.3.212":
+  version "0.3.212"
+  resolved "https://asia-south1-npm.pkg.dev/sublime-amp-160011/kapture-core-ui/@kapture/x/-/@kapture/x-0.3.212.tgz#d527b6127bc447e9502671bbe22ffbe3b9a7e4f4"
+  integrity sha512-V+Ul14ZEIUG6Z5IW69hwWAwikZ2m2VxBc0Os/ZFvZltYm+cGJzW5iiItwg5vhvJiYHkLXHmA17RmKTpB305BBw==
 
 "@leichtgewicht/ip-codec@^2.0.1":
   version "2.0.5"
