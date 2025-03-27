@@ -83,6 +83,14 @@ module.exports = {
             }
             return {
                 ...webpackConfig,
+                devtool: false, // Disables source maps in production
+                resolve: {
+                    ...webpackConfig.resolve,
+                    fallback: {
+                        ...webpackConfig.resolve.fallback,
+                        net: false,
+                    },
+                },
                 output: {
                     ...webpackConfig.output,
                     path: process.env.BUILD_DIR ? paths.appBuild : webpackConfig.output.path,
